@@ -2,11 +2,11 @@ function enterAnswer(){
   var response = prompt();
   if (response === "Love"){
     alert("Excellent!")
-    alert("Congradulations!You finish all the puzzles!")
+    alert("Congradulations!You completed all the puzzles!")
   }
   else if (response === "love"){
     alert("Great!")
-    alert("Congradulations!You finish all the puzzles!")
+    alert("Congradulations!You completed all the puzzles!")
   }
   else{
     alert("Are you sure?")
