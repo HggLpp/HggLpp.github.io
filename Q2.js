@@ -20,7 +20,7 @@ function getAnswer(){
 }
 
 function getTips(){
-var tips = ["It's going on all the time.","You're doing this."];
+var tips = ["It's going on all the time.","You're doing this.","About your nose."];
 for(i=0;i<3;i++){
   alert(tips[i]);
 }
