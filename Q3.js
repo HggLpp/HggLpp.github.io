@@ -22,7 +22,7 @@ function getAnswer(){
 }
 
 function getTips(){
-var tips = ["This is a beautiful thing.","It will make you happy."];
+var tips = ["This is a beautiful thing.","It will make you happy.","❤"];
 for(i=0;i<3;i++){
   alert(tips[i]);
 }
