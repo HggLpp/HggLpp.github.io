@@ -1,0 +1,129 @@
+body {
+  color: #e748a6;
+  margin-right:80px;
+  margin-bottom:30px;
+  margin-left:80px;
+  cursor:url(imag/logo2.png),auto;
+  background:url(imag/画板7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+            }
+video{
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                min-width: 100%;
+                min-height: 100%;
+                height: 760px;
+                width: 500px;
+                /*filter: blur(15px); //背景模糊设置 */
+                /*filter:grayscale(100%); //背景灰度设置*/
+                z-index:-11
+            }
+source{
+                min-width: 100%;
+                min-height: 100%;
+                height: auto;
+                width: auto;
+            }
+ul.navbar {
+  position: absolute;}
+  *[id="1"]{
+    margin-right:30px;
+    margin-left:30px;
+  }
+h1 {
+ font-size:50px
+ font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+ font-weight: bold;
+ font-display: auto;
+ color:#e748a6;
+}
+ #浮窗{width:10px; height:10px;text-align:center;font-size:10px;position:absolute;right:0px; top:0px;cursor:pointer;}
+ *[id="end"]{
+ font-weight:bolder;
+ font-display: auto;
+ color:black;
+}
+*[id="end"]:hover{
+ color: #e748a6;
+}
+
+*[id="大标题"]{
+ font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+ font-weight: bold;
+ font-size:5rem;
+ font-display: auto;
+ color:#e748a6;
+}
+ *[id="走马灯"]{
+   font-size:2rem;
+   font-weight: bold;
+   color: white;
+ }
+ *[id="走马灯2"]{
+   font-size:2rem;
+   font-weight: bold;
+   color: #e748a6;
+ }
+p{
+   color:gray;
+}
+*[id="介绍1"]{
+  color:#e748a6;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 2rem
+  text-decoration: blink;
+}
+*[id="介绍2"]{
+  color:gray
+  text-decoration: blink;
+}
+*[id="标题"]{
+  color:#e748a6;
+  font-weight: bold;
+  text-decoration: blink;
+  text-align: center;
+}
+
+*[id="穿搭"]{
+  max-width：100px；
+  max-height：400px；
+}
+*[id="ed"]{
+  background-color:#e748a6;
+
+}
+#fixed {
+    background-image: url('imag/背景1.jpg');
+    height: 500px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+  }
+
+.kapian{
+            overflow: hidden;
+            white-space:nowrap;
+            overflow-x:auto;
+            overflow-y:hidden;
+        }
+#hezi:hover {
+            animation: move .3s linear forwards;
+        }
+
+        @keyframes move {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.05);
+            }
+        }
+*[id="01"]{
+    color: #e748a6;
+    font-weight:bold;
+}
